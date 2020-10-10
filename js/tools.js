@@ -11,7 +11,6 @@ $(document).ready(function () {
         let o_3 = 1 - 1 / 550 * p_b;
         let o_4 = 1 - 1 / 850 * p_b;
 
-        // while (p !== undefined) {
         if (p <= 78) {
             let z_1 = 1 + (w / 10000 * p_b);
             $('.parallax__fog').css('transform', 'scale(' + z_1 + ')');
@@ -33,19 +32,11 @@ $(document).ready(function () {
             $('.parallax__city_3').css('transform', 'translate3d(' + hr_2 + 'px, 0, 0) scale(' + z_4 + ')');
             $('.parallax__city_3').css('opacity', o_4);
         }
-        // console.log(p);
-        // if (p > 78) {
-        //     $('.parallax__fog').css('display', 'none');
-        //     $('.parallax__city_1').css('display', 'none');
-        //     $('.parallax__city_2').css('display', 'none');
-        //     $('.parallax__city_3').css('display', 'none');
-        // }
-        // }
 
     });
-    // window.onbeforeunload = function () {
-    //     window.scrollTo(0, 0);
-    // }
+    window.onbeforeunload = function () {
+        window.scrollTo(0, 0);
+    }
 
     // MODAL
 
