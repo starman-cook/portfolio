@@ -57,7 +57,7 @@ $(document).ready(function () {
         modalBg.css('display', 'block');
         modalGifs.css({
             'display': 'block',
-            'background': 'url(../uploads/gifs/mobile_adoption.gif) center center no-repeat'
+            'background': 'url(../uploads/mobile_adoption.gif) center center no-repeat'
         });
     });
 
@@ -65,7 +65,7 @@ $(document).ready(function () {
         modalBg.css('display', 'block');
         modalGifs.css({
             'display': 'block',
-            'background': 'url(../uploads/gifs/chat.gif) center center no-repeat'
+            'background': 'url(../uploads/chat.gif) center center no-repeat'
         });
     });
 
@@ -73,7 +73,7 @@ $(document).ready(function () {
         modalBg.css('display', 'block');
         modalGifs.css({
             'display': 'block',
-            'background': 'url(../uploads/gifs/chuck_norris.gif) center center no-repeat'
+            'background': 'url(../uploads/chuck_norris.gif) center center no-repeat'
         });
     });
 
@@ -81,7 +81,7 @@ $(document).ready(function () {
         modalBg.css('display', 'block');
         modalGifs.css({
             'display': 'block',
-            'background': 'url(../uploads/gifs/cocktail_search.gif) center center no-repeat'
+            'background': 'url(../uploads/cocktail_search.gif) center center no-repeat'
         });
     });
 
@@ -89,7 +89,7 @@ $(document).ready(function () {
         modalBg.css('display', 'block');
         modalGifs.css({
             'display': 'block',
-            'background': 'url(../uploads/gifs/sapeur.gif) center center no-repeat'
+            'background': 'url(../uploads/sapeur.gif) center center no-repeat'
         });
     });
 
@@ -97,7 +97,7 @@ $(document).ready(function () {
         modalBg.css('display', 'block');
         modalGifs.css({
             'display': 'block',
-            'background': 'url(../uploads/gifs/spents_graphic.gif) center center no-repeat'
+            'background': 'url(../uploads/spents_graphic.gif) center center no-repeat'
         });
     });
 
@@ -105,7 +105,7 @@ $(document).ready(function () {
         modalBg.css('display', 'block');
         modalGifs.css({
             'display': 'block',
-            'background': 'url(../uploads/gifs/kiosque.gif) center center no-repeat'
+            'background': 'url(../uploads/kiosque.gif) center center no-repeat'
         });
     });
 
