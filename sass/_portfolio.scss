@@ -1,0 +1,51 @@
+.portfolio {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 4;
+    &__item {
+        max-width: 1000px;
+        height: 100px;
+        background: rgba(211,211,211, 0.7);
+        box-shadow: 1px 1px 1px 1px grey;
+        margin: 20px auto;
+        border-radius: 15px;
+        transition: 0.3s;
+        cursor: pointer;
+        outline: none;
+        user-select: none;
+        padding: 10px;
+    }
+    &__item:hover {
+        transform: scale(1.1);
+        z-index: 5;
+    }
+    &__text {
+        color: #494949;
+        letter-spacing: 6px;
+        font-weight: bold;
+    }
+
+
+}
+#modal_bg {
+    cursor: pointer;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0, 0.8);
+    display: none;
+    z-index: 6;
+}
+#modal_gifs {
+    z-index: 7;
+    position: fixed;
+    display: none;
+    top: 20%;
+    left: 20%;
+    bottom: 20%;
+    right: 20%;
+    z-index: 100;
+}

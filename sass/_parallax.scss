@@ -1,0 +1,66 @@
+.page {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.parallax {
+    position: relative;
+    height: 100%;
+    &__city {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+    }
+    &__city_1 {
+        background: url(../uploads/NYC_main.jpg) 0 0 / cover no-repeat;
+    }
+    &__city_2 {
+        z-index: 1;
+        background: url(../uploads/right_side_nyc.png) bottom right / 100% no-repeat;
+    }
+    &__city_3 {
+        z-index: 1;
+        background: url(../uploads/left_side_nyc.png) bottom left / 100% no-repeat;
+    }
+    &__fog {
+        background: url(../uploads/fog_1.png) bottom / 100% no-repeat;
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 2;
+    }
+}
+
+.content {
+    position: relative;
+    &__body {
+        max-width: 1170px;
+        margin: 0 auto;
+    }
+    &__header {
+        text-align: center;
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+    &__title {
+        font-size: 200px;
+    }
+    &__subtitle {
+        font-size: 100px;
+    }
+    &__article  {
+        text-align: center;
+        margin-top: 1000px;
+    }
+    &__text {
+        font-size: 100px;
+        margin-bottom: 2000px;
+    }
+}

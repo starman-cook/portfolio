@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.page {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.parallax {
+  position: relative;
+  height: 100%;
+}
+.parallax__city {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+.parallax__city_1 {
+  background: url(../uploads/NYC_main.jpg) 0 0/cover no-repeat;
+}
+.parallax__city_2 {
+  z-index: 1;
+  background: url(../uploads/right_side_nyc.png) bottom right/100% no-repeat;
+}
+.parallax__city_3 {
+  z-index: 1;
+  background: url(../uploads/left_side_nyc.png) bottom left/100% no-repeat;
+}
+.parallax__fog {
+  background: url(../uploads/fog_1.png) bottom/100% no-repeat;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.content {
+  position: relative;
+}
+.content__body {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.content__header {
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+.content__title {
+  font-size: 200px;
+}
+.content__subtitle {
+  font-size: 100px;
+}
+.content__article {
+  text-align: center;
+  margin-top: 1000px;
+}
+.content__text {
+  font-size: 100px;
+  margin-bottom: 2000px;
+}
+
+.portfolio {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 4;
+}
+.portfolio__item {
+  max-width: 1000px;
+  height: 100px;
+  background: rgba(211, 211, 211, 0.7);
+  box-shadow: 1px 1px 1px 1px grey;
+  margin: 20px auto;
+  border-radius: 15px;
+  transition: 0.3s;
+  cursor: pointer;
+  outline: none;
+  user-select: none;
+  padding: 10px;
+}
+.portfolio__item:hover {
+  transform: scale(1.1);
+  z-index: 5;
+}
+.portfolio__text {
+  color: #494949;
+  letter-spacing: 6px;
+  font-weight: bold;
+}
+
+#modal_bg {
+  cursor: pointer;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.8);
+  display: none;
+  z-index: 6;
+}
+
+#modal_gifs {
+  z-index: 7;
+  position: fixed;
+  display: none;
+  top: 20%;
+  left: 20%;
+  bottom: 20%;
+  right: 20%;
+  z-index: 100;
+}
+
+/*# sourceMappingURL=style.css.map */
