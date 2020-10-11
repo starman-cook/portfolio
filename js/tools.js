@@ -50,64 +50,115 @@ $(document).ready(function () {
 
 
     const modalBg = $('#modal_bg');
-    const modalGifs = $('#modal_gifs');
+    const modalGifs = $('.modal_gifs');
+    const modalGifs1 = $('#modal_gifs_1');
+    const modalGifs2 = $('#modal_gifs_2');
+    const modalGifs3 = $('#modal_gifs_3');
+    const modalGifs4 = $('#modal_gifs_4');
+    const modalGifs5 = $('#modal_gifs_5');
+    const modalGifs6 = $('#modal_gifs_6');
+    const modalGifs7 = $('#modal_gifs_7');
 
 
     itemBtn_1.on('click', () => {
         modalBg.css('display', 'block');
-        modalGifs.css({
+        modalGifs1.css({
             'display': 'block',
-            'background': 'url(../uploads/mobile_adoption.gif) center center no-repeat'
         });
     });
 
     itemBtn_2.on('click', () => {
         modalBg.css('display', 'block');
-        modalGifs.css({
+        modalGifs2.css({
             'display': 'block',
-            'background': 'url(../uploads/chat.gif) center center no-repeat'
         });
     });
-
     itemBtn_3.on('click', () => {
         modalBg.css('display', 'block');
-        modalGifs.css({
+        modalGifs3.css({
             'display': 'block',
-            'background': 'url(../uploads/chuck_norris.gif) center center no-repeat'
         });
     });
-
     itemBtn_4.on('click', () => {
         modalBg.css('display', 'block');
-        modalGifs.css({
+        modalGifs4.css({
             'display': 'block',
-            'background': 'url(../uploads/cocktail_search.gif) center center no-repeat'
         });
     });
-
     itemBtn_5.on('click', () => {
         modalBg.css('display', 'block');
-        modalGifs.css({
+        modalGifs5.css({
             'display': 'block',
-            'background': 'url(../uploads/sapeur.gif) center center no-repeat'
         });
     });
-
     itemBtn_6.on('click', () => {
         modalBg.css('display', 'block');
-        modalGifs.css({
+        modalGifs6.css({
             'display': 'block',
-            'background': 'url(../uploads/spents_graphic.gif) center center no-repeat'
+        });
+    });
+    itemBtn_7.on('click', () => {
+        modalBg.css('display', 'block');
+        modalGifs7.css({
+            'display': 'block',
         });
     });
 
-    itemBtn_7.on('click', () => {
-        modalBg.css('display', 'block');
-        modalGifs.css({
-            'display': 'block',
-            'background': 'url(../uploads/kiosque.gif) center center no-repeat'
-        });
-    });
+    // itemBtn_1.on('click', () => {
+    //     modalBg.css('display', 'block');
+    //     modalGifs.css({
+    //         'display': 'block',
+    //         'background': 'url(../uploads/mobile_adoption.gif) center center no-repeat'
+    //     });
+    // });
+
+    // itemBtn_2.on('click', () => {
+    //     modalBg.css('display', 'block');
+    //     modalGifs.css({
+    //         'display': 'block',
+    //         'background': 'url(../uploads/chat.gif) center center no-repeat'
+    //     });
+    // });
+
+    // itemBtn_3.on('click', () => {
+    //     modalBg.css('display', 'block');
+    //     modalGifs.css({
+    //         'display': 'block',
+    //         'background': 'url(../uploads/chuck_norris.gif) center center no-repeat'
+    //     });
+    // });
+
+    // itemBtn_4.on('click', () => {
+    //     modalBg.css('display', 'block');
+    //     modalGifs.css({
+    //         'display': 'block',
+    //         'background': 'url(../uploads/cocktail_search.gif) center center no-repeat'
+    //     });
+    // });
+
+    // itemBtn_5.on('click', () => {
+    //     modalBg.css('display', 'block');
+    //     modalGifs.css({
+    //         'display': 'block',
+    //         'background': 'url(../uploads/sapeur.gif) center center no-repeat'
+    //     });
+    // });
+
+    // itemBtn_6.on('click', () => {
+    //     modalBg.css('display', 'block');
+    //     modalGifs.css({
+    //         'display': 'block',
+    //         'background': 'url(../uploads/spents_graphic.gif) center center no-repeat'
+    //     });
+    // });
+
+    // itemBtn_7.on('click', () => {
+    //     modalBg.css('display', 'block');
+    //     modalGifs.css({
+    //         'display': 'block',
+    //         'background': 'url(../uploads/kiosque.gif) center center no-repeat'
+    //     });
+    // });
 
 
 
