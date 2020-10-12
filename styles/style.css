@@ -56,29 +56,41 @@ body {
   padding: 20px;
 }
 .content__title {
-  font-size: 200px;
+  font-size: 100px;
 }
 .content__subtitle {
-  font-size: 100px;
+  font-size: 50px;
 }
 .content__article {
   text-align: center;
   margin-top: 1000px;
 }
 .content__text {
-  font-size: 100px;
+  font-size: 40px;
   margin-bottom: 2000px;
 }
 
+@media screen and (min-width: 600px) {
+  .content__title {
+    font-size: 200px;
+  }
+  .content__subtitle {
+    font-size: 100px;
+  }
+  .content__text {
+    font-size: 100px;
+  }
+}
 .portfolio {
   max-width: 1200px;
   margin: 0 auto;
   position: relative;
   z-index: 4;
+  padding: 10px;
 }
 .portfolio__item {
   max-width: 1000px;
-  height: 100px;
+  height: 133px;
   background: rgba(211, 211, 211, 0.7);
   box-shadow: 1px 1px 1px 1px grey;
   margin: 20px auto;
@@ -96,6 +108,8 @@ body {
 .portfolio__text {
   color: #494949;
   letter-spacing: 6px;
+}
+.portfolio__text--title {
   font-weight: bold;
 }
 
@@ -109,17 +123,6 @@ body {
   background: rgba(0, 0, 0, 0.8);
   display: none;
   z-index: 6;
-}
-
-#modal_gifs {
-  z-index: 7;
-  position: fixed;
-  display: none;
-  top: 20%;
-  left: 20%;
-  bottom: 20%;
-  right: 20%;
-  z-index: 100;
 }
 
 #modal_gifs_1 {
@@ -152,12 +155,29 @@ body {
 
 .modal_gifs {
   z-index: 7;
+  width: 300px;
   position: fixed;
   display: none;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 100;
+}
+
+@media screen and (min-width: 600px) {
+  .modal_gifs {
+    width: 540px;
+  }
+}
+@media screen and (min-width: 900px) {
+  .modal_gifs {
+    width: 840px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .modal_gifs {
+    width: 1100px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
